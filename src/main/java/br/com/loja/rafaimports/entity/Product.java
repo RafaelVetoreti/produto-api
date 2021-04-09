@@ -13,7 +13,7 @@ public class Product {
     private Long id;
 
     private String descricao;
-    private String cor;
+    private Long cor;
 
     public Long getId() {
         return id;
@@ -31,11 +31,11 @@ public class Product {
         this.descricao = descricao;
     }
 
-    public String getCor() {
+    public Long getCor() {
         return cor;
     }
 
-    public void setCor(String cor) {
+    public void setCor(Long cor) {
         this.cor = cor;
     }
 }
